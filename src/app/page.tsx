@@ -21,8 +21,8 @@ export default function Home() {
         }
       >
         <div className="largePanel">
-          <Formations />
           <Experiences />
+          <Formations />
         </div>
         <div className="smallPanel">
           <ContactContainer />

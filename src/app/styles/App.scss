@@ -14,7 +14,7 @@ body {
   max-width: 21cm;
   min-height: 29.68cm;
   margin: 0 auto;
-  background: white;
+  background: $background;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
   font-family: $default-font;
 
@@ -63,7 +63,7 @@ body {
     }
 
     .largePanel {
-      flex: 2.5;
+      flex: $right-column;
       margin-top: 4px;
       min-width: 420px;
 
@@ -73,7 +73,7 @@ body {
     }
 
     .smallPanel {
-      flex: 1;
+      flex: $left-column;
       margin-top: 106px;
       min-width: 200px;
       border-radius: $border-radius;

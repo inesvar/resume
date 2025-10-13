@@ -4,13 +4,16 @@ $default-font: "Verdana", sans-serif;
 
 $border-radius: 5px;
 $spacing: 5px;
+$left-column: 1;
+$right-column: 2;
 
 // red is for french
 //$header-background: hsl(0, 50%, 50%);
 // lavender is for english
-$header-background: hsl(233, 15%, 45%);
+$background: hsl(0, 0%, 100%);
+$header-background: hsl(233, 13%, 25%);
 
-$accent-color: white;
+$accent-color: rgb(255, 255, 255);
 $gradient-background: linear-gradient(
   90deg,
   $header-background,

@@ -20,8 +20,11 @@ header {
   }
 
   .picturePanel {
+    flex: $left-column;
     height: 210px;
     align-self: baseline;
+    display: flex;
+    justify-content: center;
 
     img {
       height: 100%;
@@ -31,7 +34,7 @@ header {
   }
 
   .namePanel {
-    flex-grow: 1;
+    flex: $right-column;
     display: flex;
     flex-direction: column;
     justify-content: center;
