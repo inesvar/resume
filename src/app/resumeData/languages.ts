@@ -8,8 +8,8 @@ export type Language = {
 
 export const languages: Language[] = [
   {
-    title: S({ fr: "Français", en: "French" }),
-    icon: "🇫🇷",
+    title: S({ fr: "Français & Slovaque", en: "French & Slovak" }),
+    icon: "🇫🇷🇸🇰",
     level: S({ fr: "Natif", en: "Native" }),
   },
   {
@@ -18,13 +18,13 @@ export const languages: Language[] = [
     level: "C1",
   },
   {
-    title: S({ fr: "Espagnol", en: "Spanish" }),
-    icon: "🇪🇸",
+    title: S({ fr: "Allemand", en: "Deutsch" }),
+    icon: "🇩🇪",
     level: "B1",
   },
   {
     title: S({ fr: "Japonais", en: "Japanese" }),
     icon: "🇯🇵",
-    level: "B1",
+    level: "A2",
   },
 ];

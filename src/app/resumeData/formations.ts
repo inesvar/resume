@@ -10,34 +10,34 @@ export type Formation = {
 export const formations: Formation[] = [
   {
     title: S({
-      fr: "Diplôme d'Ingénieur à l'Institut Polytechnique de Paris",
-      en: "Master's Degree at Telecom Paris",
+      fr: "Diplôme d'Ingénieur à Télécom Paris",
+      en: "Master of Science (MSc) at Telecom Paris",
     }),
     url: S({
-      fr: "https://www.ip-paris.fr/",
-      en: "https://www.ip-paris.fr/en",
+      fr: "https://www.telecom-paris.fr/",
+      en: "https://www.telecom-paris.fr/en/home",
     }),
     when: S({
       fr: "Septembre 2021 à Juillet 2024 à Paris",
       en: "September 2021 to July 2024 in Paris",
     }),
     what: S({
-      fr: "Master sélectif généraliste spécialisé en <b>informatique graphique</b> et <b>science des données</b> à <b>Télécom Paris</b> (n°1 sur le numérique) en M1 puis à <b>l'X</b> en M2.",
-      en: "Selective generalist master's degree specialized in <b>computer graphics</b> and <b>data science</b> at <b>Télécom Paris</b> (n°1 in digital) in M1 then at <b>l'X</b> in M2.",
+      fr: "Formation généraliste en sciences et informatique, spécialisation en <b>développement embarqué</b> et en <b>logiciels distribués</b>",
+      en: "General computer science, specialized in <b>embedded software</b> and <b>distributed software</b>",
     }),
   },
   {
     title: S({
-      fr: "Classe Préparatoire MPSI/MP au lycée Clemenceau",
+      fr: "CPGE (Classe Préparatoire MPSI/MP*) au lycée Chaptal",
       en: "Scientific preparatory class",
     }),
     when: S({
-      fr: "Septembre 2019 à Juin 2021 à Nantes",
-      en: "September 2019 to June 2021 in Nantes",
+      fr: "Septembre 2019 à Juin 2021 à Paris",
+      en: "September 2019 to June 2021 in Paris",
     }),
     what: S({
-      fr: "",
-      en: "Generalist intensive scientific training in <b>Maths, Physics and Computer Science</b>, followed by the competitive exam to enter an engineering school.",
+      fr: "Préparation aux concours d'entrée des écoles d'ingénieur",
+      en: "Preparing the national competitive exam to enter selective engineering schools",
     }),
   },
 ];

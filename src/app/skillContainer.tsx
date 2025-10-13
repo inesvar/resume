@@ -12,7 +12,7 @@ export const SkillContainer = ({ skillList }: SkillContainerProps) => {
       <h3>{skillList.title}</h3>
       {skillList.skills.map((skill: Skill) => (
         <p key={skill.title} hidden={skill.hidden}>
-          {skill.title} {skill.yoe ? `(${YoE(skill.yoe)})` : ""}
+          {skill.title} {skill.tech ? `(${skill.tech})` : ""} {skill.yoe ? `(${YoE(skill.yoe)})` : ""}
         </p>
       ))}
     </div>
