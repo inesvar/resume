@@ -11,9 +11,12 @@ export const SkillContainer = ({ skillList }: SkillContainerProps) => {
     <div hidden={skillList.hidden}>
       <h3>{skillList.title}</h3>
       {skillList.skills.map((skill: Skill) => (
-        <p key={skill.title} hidden={skill.hidden}>
-          {skill.title} {skill.tech ? `(${skill.tech})` : ""} {skill.yoe ? `(${YoE(skill.yoe)})` : ""}
-        </p>
+        <div key={skill.title} hidden={skill.hidden}>
+          {skill.url ? <a href={skill.url}>{skill.title}</a> : skill.title}
+          &nbsp;{skill.tech ? `(${skill.tech})` : ""} {skill.yoe ? `(${YoE(skill.yoe)})` : ""}
+          {skill.detail ? <><br/>{skill.detail}</> : ""}
+          {skill.date ? <><br/><h4>{skill.date}</h4></> : "" }
+        </div>
       ))}
     </div>
   );

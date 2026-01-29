@@ -18,19 +18,19 @@ export const experiences: Experience[] = [
     }),
     what: [
       S({
-        fr: "Développement de nouvelles features en C++ multiplateforme",
+        fr: "Développement de nouvelles features pour de l'affichage dynamique (C++ sur Windows et Android)",
         en: "Developing new features in cross-platform C++ (Android and Windows)",
       }),
       S({
-        fr: "Développement d'un nouveau moteur de rendu pour l'affichage dynamique (DirectX 12)",
-        en: "Developing a new render engine for digital signage (DirectX 12)",
+        fr: "Développement (POC) d'un nouveau moteur de rendu en DirectX 12",
+        en: "Developing POC of a new render engine in DirectX 12",
       }),
       S({
-        fr: "Participation à la mise en place de bonnes pratiques de code",
+        fr: "Modernisation du code legacy et mise en place de bonnes pratiques",
         en: "Contributing to code modernization and enforcing good practices",
       }),
       S({
-        fr: "Résolution de problèmes internes et clients efficace)",
+        fr: "Résolution efficace de problèmes internes et clients",
         en: "Solving company and client bugs and issues efficiently",
       }),
     ],
@@ -82,12 +82,12 @@ export const experiences: Experience[] = [
         en: "Developing an Bresenham algorithm variant to draw dotted lines",
       }),
     ],
-    enabled: true,
+    enabled: false,
   },
   {
     title: S({
-      fr: "Equipe gagnante du hackathon Exolegend 2024 (C++)",
-      en: "Part of the winning team of Exolegend 2024 (C++)",
+      fr: "Equipe gagnante de l'Exolegend 2024 (C++)",
+      en: "Part of the winning team at Exolegend 2024 (C++)",
     }),
     url: "https://www.exolegend.com/editions-precedentes/",
     when: S({

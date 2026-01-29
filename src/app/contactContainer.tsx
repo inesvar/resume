@@ -10,16 +10,11 @@ export const ContactContainer = ({}) => {
         {IS.contact}
       </h2>
       <div>
+        <p>🪪&nbsp;&nbsp;{you.age}</p>
         <p>📍&nbsp;&nbsp;{you.location}</p>
         <p>
           📞&nbsp;&nbsp;
           <a href={`tel:${compactPhoneNumber}`}>{you.phoneNumber}</a>
-        </p>
-        <p>
-          🔗&nbsp;&nbsp;
-          <a href={you.onlinePortfolio} target="_blank">
-            {IS.onlinePortfolio}
-          </a>
         </p>
         <p>
           📭&nbsp;&nbsp;<a href={`mailto:${you.email}`}>{you.email}</a>

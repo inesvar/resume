@@ -5,6 +5,9 @@ export type Skill = {
   yoe?: number;
   hidden?: boolean;
   tech?: string;
+  date?: string;
+  url?: string;
+  detail?: string;
 };
 
 export type SkillList = {
@@ -44,19 +47,20 @@ export const skills: SkillList[] = [
   {
     title: S({ fr: "Programmation", en: "Programming" }),
     skills: [
-      { title: "Rust", yoe: 4 },
-      { title: "C++ (and C)", yoe: 4 },
-      { title: "Python, scripting", yoe: 9 },
-      { title: "WebGL/OpenGL/DirectX" },
+      { title: "Rust", yoe: 4, detail: "Generics, traits, async" },
+      { title: S({ fr: "C++ (et C)", en: "C++ (and C)" }) , yoe: 4, detail: "Smart pointers, templates" },
+      { title: "Python, scripting", yoe: 9, detail: "Classes, tests unitaires" },
+      { title: "WebGL/OpenGL/DirectX", detail: "Shaders, pipeline de rendu" },
       { title: "Java & Android" },
+      { title: S({ fr: "Débugueurs : GDB, WinDbg", en: "Debuggers: GDB, WinDbg" }) },
     ],
   },
   {
     title: S({ fr: "Projets personnels", en: "Personal projects" }),
     skills: [
-      { title: "Tetris application", tech: "Rust" },
-      { title: "Tiling renderer", tech: "C++, OpenGL" },
-      { title: "DoubleFloat", tech: "Rust" },
+      { title: "Tetris application", tech: "Rust", date: "2023 - ", url: "https://github.com/inesvar/tetris" },
+      { title: "Création de pavages", tech: "C++, OpenGL", date: "November - December 2024", url: "https://github.com/inesvar/Tiling" },
+      { title: "Minigrep (Rust book)", tech: "Rust", date: "January 2026", url: "https://github.com/inesvar/minigrep" },
     ],
   },
 ];
