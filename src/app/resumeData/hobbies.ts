@@ -7,11 +7,7 @@ export type Hobby = {
 
 export const hobbies: Hobby[] = [
   {
-    title: S({ fr: "Course à pied, vélo", en: "Jogging, cycling" }),
+    title: S({ fr: "Vélo, course à pied, patinage", en: "Cycling, jogging, ice-skating" }),
     icon: "🏃‍♂️",
-  },
-  {
-    title: S({ fr: "Cuisine", en: "Cooking" }),
-    icon: "🍳",
   },
 ];
