@@ -23,7 +23,7 @@ export const SkillContainer = ({ skillList }: SkillContainerProps) => {
           ) : (
             ""
           )}
-          {skill.date ? (
+          {false ? (
             <>
               <br />
               <h4>{skill.date}</h4>

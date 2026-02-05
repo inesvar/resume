@@ -24,11 +24,11 @@ export const experiences: Experience[] = [
     }),
     what: [
       S({
-        fr: "Développement de nouvelles features d'affichage dynamique en C++ (Windows et Android)",
+        fr: "Développement C++ (Windows et Android) pour l'affichage dynamique",
         en: "Developing new features in cross-platform C++ (Android & Windows)",
       }),
       S({
-        fr: "Développement d'un nouveau moteur de rendu en DirectX 12 (Nov 2025 - )",
+        fr: "Conception d'un nouveau moteur de rendu en DirectX 12 (Nov 2025 - )",
         en: "Developing a new render engine in DirectX 12",
       }),
       S({
@@ -58,15 +58,15 @@ export const experiences: Experience[] = [
         en: "Developing a local dimming prototype to improve contrast on a radiology display",
       }),
       S({
-        fr: "Développement d'un algorithme FFT (Fast Fourier Transform) sur le GPU (WebGL)",
-        en: "Developing a FFT algorithm on the GPU (WebGL)",
+        fr: "Développement d'un algorithme FFT (Fast Fourier Transform) sur le GPU",
+        en: "Developing a FFT (Fast Fourier Transform) algorithm on the GPU (WebGL)",
       }),
       S({
-        fr: "Démonstrations à la R&D des résultats obtenus",
-        en: "Show casing the prototype to the whole R&D team",
+        fr: "Démonstration des résultats obtenus à l'équipe R&D",
+        en: "Desmonstrating the results to the R&D team",
       }),
       S({
-        fr: "Réalisation de mesures et de tests de précision de la solution réalisée",
+        fr: "Réalisation de mesures et de tests de précision du prototype",
         en: "Measuring and testing accuracy of the developed solution",
       }),
     ],
@@ -87,8 +87,8 @@ export const otherExperiences: Experience[] = [
     }),
     what: [
       S({
-        fr: "Développement d'un variant de l'algorithme de Bresenham pour dessiner des lignes pointillées",
-        en: "Developing an Bresenham algorithm variant to draw dotted lines",
+        fr: "Développement d'un variant de l'algorithme de Bresenham",
+        en: "Developing an Bresenham algorithm variant",
       }),
     ],
     enabled: true,
@@ -105,8 +105,8 @@ export const otherExperiences: Experience[] = [
     }),
     what: [
       S({
-        fr: "Développement d'un algorithme de guidage d'un robot dans un labyrinthe",
-        en: "Developing an algorithm to direct a robot in a maze",
+        fr: "Développement d'un algorithme de guidage d'un robot",
+        en: "Developing an algorithm to direct a robot",
       }),
     ],
     enabled: true,

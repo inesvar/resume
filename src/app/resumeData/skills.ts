@@ -18,29 +18,6 @@ export type SkillList = {
 
 export const skills: SkillList[] = [
   {
-    title: S({ fr: "Soft skills", en: "Soft skills" }),
-    skills: [
-      {
-        title: S({
-          fr: "Rigoureuse et curieuse",
-          en: "Rigorous & curious",
-        }),
-      },
-      {
-        title: S({
-          fr: "Communicative et travailleuse",
-          en: "Communicative & hard-working",
-        }),
-      },
-      {
-        title: S({
-          fr: "Team player et créative",
-          en: "Team player & creative",
-        }),
-      },
-    ],
-  },
-  {
     title: S({ fr: "Générales", en: "General" }),
     skills: [
       { title: S({ fr: "Revue de code", en: "Code review" }) },
@@ -80,11 +57,27 @@ export const skills: SkillList[] = [
           en: "Shaders, render pipeline",
         }),
       },
-      { title: "Java & Android" },
+    ],
+  },
+  {
+    title: S({ fr: "Soft skills", en: "Soft skills" }),
+    skills: [
       {
         title: S({
-          fr: "Débugueurs : GDB, WinDbg",
-          en: "Debuggers: GDB, WinDbg",
+          fr: "Rigoureuse et curieuse",
+          en: "Rigorous & curious",
+        }),
+      },
+      {
+        title: S({
+          fr: "Communicative et travailleuse",
+          en: "Communicative & hard-working",
+        }),
+      },
+      {
+        title: S({
+          fr: "Team player et créative",
+          en: "Team player & creative",
         }),
       },
     ],

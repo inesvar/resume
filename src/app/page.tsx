@@ -30,7 +30,6 @@ export default function Home() {
           <ContactContainer />
           <Skills />
           <Languages />
-          <Hobbies />
         </div>
       </div>
     </main>
