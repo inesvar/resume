@@ -10,20 +10,26 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    title: S({ fr: "Ingénieur développement logiciel à Telelogos", en: "Software developer at Telelogos" }),
-    url: S({ fr: "https://www.telelogos.com/", en: "https://www.telelogos.com/en/" }),
+    title: S({
+      fr: "Ingénieur développement logiciel à Telelogos",
+      en: "Software developer at Telelogos",
+    }),
+    url: S({
+      fr: "https://www.telelogos.com/",
+      en: "https://www.telelogos.com/en/",
+    }),
     when: S({
       fr: "Décembre 2024 -  à Angers, France",
       en: "December 2024 -  in Angers, France",
     }),
     what: [
       S({
-        fr: "Développement de nouvelles features pour de l'affichage dynamique (C++ sur Windows et Android)",
-        en: "Developing new features in cross-platform C++ (Android and Windows)",
+        fr: "Développement de nouvelles features d'affichage dynamique en C++ (Windows et Android)",
+        en: "Developing new features in cross-platform C++ (Android & Windows)",
       }),
       S({
-        fr: "Développement (POC) d'un nouveau moteur de rendu en DirectX 12",
-        en: "Developing POC of a new render engine in DirectX 12",
+        fr: "Développement d'un nouveau moteur de rendu en DirectX 12 (Nov 2025 - )",
+        en: "Developing a new render engine in DirectX 12",
       }),
       S({
         fr: "Modernisation du code legacy et mise en place de bonnes pratiques",
@@ -48,7 +54,7 @@ export const experiences: Experience[] = [
     }),
     what: [
       S({
-        fr: "Développement d'un prototype 'local dimming' pour améliorer le contraste sur un écran médical",
+        fr: "Développement d'un software de 'local dimming' pour améliorer le contraste sur un écran médical",
         en: "Developing a local dimming prototype to improve contrast on a radiology display",
       }),
       S({
@@ -91,8 +97,8 @@ export const experiences: Experience[] = [
     }),
     url: "https://www.exolegend.com/editions-precedentes/",
     when: S({
-      fr: "Février 2024",
-      en: "February 2024",
+      fr: "Février 2024, Lille, France",
+      en: "February 2024, Lille, France",
     }),
     what: [
       S({
