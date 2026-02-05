@@ -2,7 +2,11 @@ import { S } from "./internationalization";
 
 export const IS = {
   formation: S({ fr: "Formation", en: "Education" }),
-  experience: S({ fr: "Expérience", en: "Experience" }),
+  experience: S({
+    fr: "Expérience professionnelle",
+    en: "Professional experience",
+  }),
+  otherExperience: S({ fr: "Expérience", en: "Experience" }),
 
   skills: S({ fr: "Compétences", en: "Skills" }),
   languages: S({ fr: "Langues", en: "Languages" }),

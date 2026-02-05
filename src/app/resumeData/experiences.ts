@@ -72,6 +72,9 @@ export const experiences: Experience[] = [
     ],
     enabled: true,
   },
+];
+
+export const otherExperiences: Experience[] = [
   {
     title: S({
       fr: "Contribution à embedded-graphics (Rust no-std)",
@@ -88,7 +91,7 @@ export const experiences: Experience[] = [
         en: "Developing an Bresenham algorithm variant to draw dotted lines",
       }),
     ],
-    enabled: false,
+    enabled: true,
   },
   {
     title: S({

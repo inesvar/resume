@@ -1,4 +1,5 @@
 import { Experiences } from "./experienceContainer";
+import { OtherExperiences } from "./otherExperienceContainer";
 import { Formations } from "./formationContainer";
 import { Header } from "./header";
 import { Skills } from "./skillContainer";
@@ -23,6 +24,7 @@ export default function Home() {
         <div className="largePanel">
           <Experiences />
           <Formations />
+          <OtherExperiences />
         </div>
         <div className="smallPanel">
           <ContactContainer />
