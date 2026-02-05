@@ -36,12 +36,7 @@ export const Experiences = ({}) => {
     <section>
       <h2>
         <span className="icon experience-icon inverted"></span>
-        <AccessLinkIcon
-          text={IS.experience}
-          inverted
-          url={you.onlinePortfolio}
-          title={IS.onlinePortfolio}
-        />
+        {IS.experience}
       </h2>
       {experiences.map((experience) => (
         <ExperienceContainer key={experience.title} experience={experience} />
