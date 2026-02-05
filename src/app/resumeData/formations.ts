@@ -4,7 +4,7 @@ export type Formation = {
   title: string;
   url?: string;
   when: string;
-  what: string;
+  what?: string;
 };
 
 export const formations: Formation[] = [
@@ -34,10 +34,6 @@ export const formations: Formation[] = [
     when: S({
       fr: "Septembre 2019 à Juin 2021 à Paris",
       en: "September 2019 to June 2021 in Paris",
-    }),
-    what: S({
-      fr: "Préparation aux concours d'entrée des écoles d'ingénieur",
-      en: "Preparing the national competitive exam to enter selective engineering schools",
     }),
   },
 ];

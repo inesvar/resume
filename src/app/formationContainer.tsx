@@ -23,7 +23,7 @@ export const FormationContainer = ({ formation }: FormationContainerProps) => {
         )}
       </h3>
       <h4>{formation.when}</h4>
-      <p dangerouslySetInnerHTML={createMarkup()}></p>
+      {formation.what ? <p dangerouslySetInnerHTML={createMarkup()}></p> : ""}
     </div>
   );
 };

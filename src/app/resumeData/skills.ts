@@ -45,17 +45,9 @@ export const skills: SkillList[] = [
       {
         title: "Python, scripting",
         yoe: 9,
-        detail: S({
-          fr: "Classes, tests unitaires",
-          en: "Classes, unit tests",
-        }),
       },
       {
         title: "WebGL/OpenGL/DirectX",
-        detail: S({
-          fr: "Shaders, pipeline de rendu",
-          en: "Shaders, render pipeline",
-        }),
       },
     ],
   },
